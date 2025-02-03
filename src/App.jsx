@@ -3,7 +3,7 @@ import { Route, Routes, useRoutes } from 'react-router-dom'
 import Auth from './Pages/auth/Auth'
 import Dashboard from './Pages/dashboard/Dashboard'
 import Layout from './Pages/layout/Layout'
-import Settings from './Pages/settings/Settings'
+import Settings from './Pages/Settings/Settings'
 import { Analytics } from './Pages/analytics/Analytics'
 import Links from './Pages/links/Links'
 
