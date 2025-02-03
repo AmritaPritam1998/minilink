@@ -1,15 +1,14 @@
 import './App.css'
 import { Route, Routes, useRoutes } from 'react-router-dom'
-import Auth from './pages/auth/Auth'
-import Dashboard from './pages/dashboard/Dashboard'
-import Layout from './pages/layout/Layout'
-import Settings from './pages/settings/Settings'
-import { Analytics } from './pages/analytics/Analytics'
-import Links from './pages/links/Links'
+import Auth from './Pages/auth/Auth'
+import Dashboard from './Pages/dashboard/Dashboard'
+import Layout from './Pages/layout/Layout'
+import Settings from './Pages/settings/Settings'
+import { Analytics } from './Pages/analytics/Analytics'
+import Links from './Pages/links/Links'
 
 
 function App() {
-
   return (
     <Routes>
       <Route path="/" element={<Layout/>} >
